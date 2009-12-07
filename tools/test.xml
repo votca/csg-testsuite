@@ -1,0 +1,8 @@
+<hello>
+  <world>true</world>
+  <list>
+    <item>A</item>
+    <item>B</item>
+    <noitem>C</noitem>
+  </list>
+</hello>
