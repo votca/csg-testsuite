@@ -29,7 +29,7 @@ int main(int argc, char **argv) {
             ("help,h", "produce help message")
             ("listcharges,l", po::value<string >(&listcrg)-> default_value("list_charges.xml"), "xml filename containing the list of the charge unit type")
             ("posor1,1", po::value<string > (&pos1) -> default_value("posmol1"), "list of charge unit type, position and orientation for mol 1")
-	    ("posor2,2", po::value<string > (&pos2) -> default_value("posmol1"), " list of charge unit type, position and orientation for mol 2")
+	    ("posor2,2", po::value<string > (&pos2) -> default_value("posmol2"), " list of charge unit type, position and orientation for mol 2")
             ;
     
 
@@ -50,7 +50,37 @@ int main(int argc, char **argv) {
     ifstream in1(pos1.c_str());
     ifstream in2(pos2.c_str());
     while ( in1 && in2){
+    	string name1, name2;
+	vec com1;
+	vec com2;
+	matrix or1;
+	matrix or2;
+	in1 >> name1 >> com1.x() >> com1.y() >> com1.z() >> 
+		or1[0][0] >> or1[0][1] >> or1[0][2] >>
+		or1[1][0] >> or1[1][1] >> or1[1][2] >>
+		or1[2][0] >> or1[2][1] >> or1[2][2] ;
+	in2 >> name2 >> com2.x() >> com2.y() >> com2.z() >> 
+		or2[0][0] >> or2[0][1] >> or2[0][2] >>
+		or2[1][0] >> or2[1][1] >> or2[1][2] >>
+		or2[2][0] >> or2[2][1] >> or2[2][2] ;
+
+	com1 = com1/RA;
+	com2 = com2/RA;
+//	cout << "mol1: " << name1 << com1 << or1<<endl;
+//	cout << "mol2: " << name2 << com2 << or2<<endl;
+
+
+	CrgUnit A = jcalc.DefineCrgUnit(com1, or1, name1);
+	CrgUnit B = jcalc.DefineCrgUnit(com2, or2, name2);
+
+//	cout << "Compute J" <<endl;
+	vector <double> Js = jcalc.GetJ(A,B);
+//	cout << "Finished computing J" <<endl;
+	vector <double>::iterator itJ= Js.begin();
+	for (; itJ!=Js.end(); ++itJ) cout << '\t'<< *itJ <<endl;
+
     }
+
 
 }
 
