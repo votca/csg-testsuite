@@ -23,7 +23,7 @@ ACI_PACKAGE_SAVED(XML,[XML library (version XML2)],
                  )
 
 AX_PATH_GSL(,,AC_MSG_ERROR([Cannot find GSL. Please make sure it is installed and check your flags]))
-AX_GROMACS
+# AX_GROMACS
 AX_BOOST([1.33.1])
 
 AX_VOTCA_TOOLS
