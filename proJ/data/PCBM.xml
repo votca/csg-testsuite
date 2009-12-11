@@ -1,6 +1,6 @@
 <cg_molecule>
         <name>PCBM</name>
-        <ident>UNK</ident>
+        <ident>PCBM</ident>
         <topology>
              <cg_beads>
 	     	<cg_bead>
