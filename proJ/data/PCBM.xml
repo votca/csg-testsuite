@@ -1,0 +1,24 @@
+<cg_molecule>
+        <name>PCBM</name>
+        <ident>UNK</ident>
+        <topology>
+             <cg_beads>
+	     	<cg_bead>
+			<name>B</name>
+			<type>B</type>
+			<symmetry>3</symmetry>
+			<mapping>B</mapping>
+			<beads> 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:C 1:UNK:H 1:UNK:H 1:UNK:H 1:UNK:H 1:UNK:H 1:UNK:H 1:UNK:H 1:UNK:H 1:UNK:H 1:UNK:H 1:UNK:H 1:UNK:O 1:UNK:O 1:UNK:C 1:UNK:H 1:UNK:H 1:UNK:H </beads>
+		</cg_bead>
+	    </cg_beads>
+	</topology>
+	<maps>
+	    <map>
+		<name>B</name>
+		<weights>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </weights>
+	     </map>
+	 </maps>
+</cg_molecule>
+
+
+	
