@@ -1,5 +1,6 @@
 syntax:glob
 
+\#*
 *~
 stamp-h1
 .deps
