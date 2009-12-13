@@ -25,3 +25,11 @@ config/config.sub
 step_00?
 inverse.log
 done
+
+csg/iterative_spce/ibm/CG-CG.pot.new
+csg/iterative_spce/imc/CG-CG.pot.new
+results.txt
+mdout.mdp
+tests.log
+topol.tpr
+
