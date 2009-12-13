@@ -1,12 +1,15 @@
 #!/bin/bash
 
-failed=0
+source ../functions.sh
 
+test_start "running grompp"
 # running grompp to generate tpr
-grompp -n index.ndx || exit 1 
-# generating normal nblist
-csg_stat --top topol.tpr --trj conf.gro --cg water_cg.xml --options settings.xml || failed=$((failed+1)) 
+grompp -n index.ndx || test_fail
+test_end
 
-diff CG-CG.dist.new CG-CG.ref || failed=$((failed+1))
+test_start "nblist simple"
+csg_stat --top topol.tpr --trj conf.gro --cg water_cg.xml --options settings.xml || test_fail 
+diff CG-CG.dist.new CG-CG.ref || test_fail
+test_end 
 
-exit $failed
+tests_finished
