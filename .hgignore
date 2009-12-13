@@ -22,3 +22,6 @@ config/missing
 config/config.guess
 config/config.sub
 
+step_00?
+inverse.log
+done
