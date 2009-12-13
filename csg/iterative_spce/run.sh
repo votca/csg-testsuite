@@ -1,6 +1,10 @@
 #!/bin/bash
 
 source ../functions.sh
+test_start  "simple test"
+test_fail
+test_end
+tests_finished
 
 test_start "running ibm"
 # running grompp to generate tpr
