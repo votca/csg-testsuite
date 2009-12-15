@@ -50,6 +50,7 @@ int main(int argc, char **argv) {
     ifstream in1(pos1.c_str());
     ifstream in2(pos2.c_str());
     while ( in1 && in2){
+
     	string name1, name2;
 	vec com1;
 	vec com2;
@@ -70,16 +71,23 @@ int main(int argc, char **argv) {
 //	cout << "mol2: " << name2 << com2 << or2<<endl;
 
 
-	CrgUnit A = jcalc.DefineCrgUnit(com1, or1, name1);
-	CrgUnit B = jcalc.DefineCrgUnit(com2, or2, name2);
+	if (name1 != "" ){
+	    CrgUnit A = jcalc.DefineCrgUnit(com1, or1, name1);
+	    CrgUnit B = jcalc.DefineCrgUnit(com2, or2, name2);
 
-//	cout << "Compute J" <<endl;
-	vector <double> Js = jcalc.GetJ(A,B);
-//	cout << "Finished computing J" <<endl;
-	vector <double>::iterator itJ= Js.begin();
-	for (; itJ!=Js.end(); ++itJ) cout << '\t'<< *itJ <<endl;
+    //	cout << "Compute J" <<endl;
+	    vector <double> Js = jcalc.GetJ(A,B);
+    //	cout << "Finished computing J" <<endl;
+	    vector <double>::iterator itJ= Js.begin();
+	    for (; itJ!=Js.end(); ++itJ) cout << '\t'<< *itJ <<endl;
+	}
+	string line1, line2;
+	getline(in1, line1); //hack to get the endline char
+	getline(in2,line2);
+
 
     }
+    cout << "Finished computing transfer integrals" <<endl;
 
 
 }
