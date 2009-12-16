@@ -1,4 +1,5 @@
 <cg>
+  <nbsearch>grid</nbsearch>
   <!-- example for a non-bonded interaction entry -->
   <non-bonded>
     <!-- name of the interaction -->
@@ -8,7 +9,7 @@
     <type2>CG</type2>
     <!-- dimension + grid spacing of tables for calculations -->
     <min>0</min>
-    <max>0.9</max>
+    <max>1.2</max>
     <step>0.01</step>
   </non-bonded>
-</cg>  
+</cg>
