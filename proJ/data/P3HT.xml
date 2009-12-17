@@ -9,7 +9,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>1:THI:C2 1:THI:C5 1:THI:S1 1:THI:C3 1:THI:C4 1:THI:H3 </beads>
+				<beads>1:Protein:C2 1:Protein:C5 1:Protein:S1 1:Protein:C3 1:Protein:C4 1:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -17,7 +17,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>2:THI:C2 2:THI:C5 2:THI:S1 2:THI:C3 2:THI:C4 2:THI:H3 </beads>
+				<beads>2:Protein:C2 2:Protein:C5 2:Protein:S1 2:Protein:C3 2:Protein:C4 2:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -25,7 +25,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>3:THI:C2 3:THI:C5 3:THI:S1 3:THI:C3 3:THI:C4 3:THI:H3 </beads>
+				<beads>3:Protein:C2 3:Protein:C5 3:Protein:S1 3:Protein:C3 3:Protein:C4 3:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -33,7 +33,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>4:THI:C2 4:THI:C5 4:THI:S1 4:THI:C3 4:THI:C4 4:THI:H3 </beads>
+				<beads>4:Protein:C2 4:Protein:C5 4:Protein:S1 4:Protein:C3 4:Protein:C4 4:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -41,7 +41,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>5:THI:C2 5:THI:C5 5:THI:S1 5:THI:C3 5:THI:C4 5:THI:H3 </beads>
+				<beads>5:Protein:C2 5:Protein:C5 5:Protein:S1 5:Protein:C3 5:Protein:C4 5:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -49,7 +49,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>6:THI:C2 6:THI:C5 6:THI:S1 6:THI:C3 6:THI:C4 6:THI:H3 </beads>
+				<beads>6:Protein:C2 6:Protein:C5 6:Protein:S1 6:Protein:C3 6:Protein:C4 6:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -57,7 +57,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>7:THI:C2 7:THI:C5 7:THI:S1 7:THI:C3 7:THI:C4 7:THI:H3 </beads>
+				<beads>7:Protein:C2 7:Protein:C5 7:Protein:S1 7:Protein:C3 7:Protein:C4 7:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -65,7 +65,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>8:THI:C2 8:THI:C5 8:THI:S1 8:THI:C3 8:THI:C4 8:THI:H3 </beads>
+				<beads>8:Protein:C2 8:Protein:C5 8:Protein:S1 8:Protein:C3 8:Protein:C4 8:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -73,7 +73,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>9:THI:C2 9:THI:C5 9:THI:S1 9:THI:C3 9:THI:C4 9:THI:H3 </beads>
+				<beads>9:Protein:C2 9:Protein:C5 9:Protein:S1 9:Protein:C3 9:Protein:C4 9:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -81,7 +81,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>10:THI:C2 10:THI:C5 10:THI:S1 10:THI:C3 10:THI:C4 10:THI:H3 </beads>
+				<beads>10:Protein:C2 10:Protein:C5 10:Protein:S1 10:Protein:C3 10:Protein:C4 10:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -89,7 +89,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>11:THI:C2 11:THI:C5 11:THI:S1 11:THI:C3 11:THI:C4 11:THI:H3 </beads>
+				<beads>11:Protein:C2 11:Protein:C5 11:Protein:S1 11:Protein:C3 11:Protein:C4 11:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -97,7 +97,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>12:THI:C2 12:THI:C5 12:THI:S1 12:THI:C3 12:THI:C4 12:THI:H3 </beads>
+				<beads>12:Protein:C2 12:Protein:C5 12:Protein:S1 12:Protein:C3 12:Protein:C4 12:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -105,7 +105,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>13:THI:C2 13:THI:C5 13:THI:S1 13:THI:C3 13:THI:C4 13:THI:H3 </beads>
+				<beads>13:Protein:C2 13:Protein:C5 13:Protein:S1 13:Protein:C3 13:Protein:C4 13:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -113,7 +113,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>14:THI:C2 14:THI:C5 14:THI:S1 14:THI:C3 14:THI:C4 14:THI:H3 </beads>
+				<beads>14:Protein:C2 14:Protein:C5 14:Protein:S1 14:Protein:C3 14:Protein:C4 14:Protein:H3</beads>
 			</cg_bead>
 
 			<cg_bead>
@@ -121,7 +121,7 @@
 				<type>A</type>
 				<symmetry>3</symmetry>
 				<mapping>A</mapping>
-				<beads>15:THI:C2 15:THI:C5 15:THI:S1 15:THI:C3 15:THI:C4 15:THI:H3 </beads>
+				<beads>15:Protein:C2 15:Protein:C5 15:Protein:S1 15:Protein:C3 15:Protein:C4 15:Protein:H3</beads>
 			</cg_bead>
              </cg_beads> 
              <cg_bonded> 
@@ -181,10 +181,10 @@
 			</dihedral>
 		</cg_bonded>
 	</topology>
-	<maps>
+ 	<maps>
 		<map>
 			<name>A</name>
-			<weights> 12 12 12 12 12 1 </weights>
+			<weights> 1. 1. 1.  1. 1. 1.</weights>
 		</map>
 	</maps>
 </cg_molecule>
