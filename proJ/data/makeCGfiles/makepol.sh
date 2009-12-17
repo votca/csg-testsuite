@@ -42,4 +42,4 @@ echo "			</dihedral>"
 
 echo "		</cg_bonded>"
 echo "	</topology>"
-
+echo "</cg_molecule>"
