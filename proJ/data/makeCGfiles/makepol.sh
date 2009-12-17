@@ -2,10 +2,10 @@
 npol=15;
 echo "<cg_molecule>
         <name>P3HT</name>
-        <ident>THI</ident>
+        <ident>Protein</ident>
         <topology>
              <cg_beads> "
-for i  in `seq 1 $npol` ; do sed 's/NUMBER/'${i}'/g' singlebead.fo ; done
+for i  in `seq 1 $((npol ))` ; do sed 's/NUMBER/'${i}'/g' singlebead.fo ; done
 echo "             </cg_beads> "
 echo "             <cg_bonded> "
 echo "			<bond>"
@@ -42,4 +42,10 @@ echo "			</dihedral>"
 
 echo "		</cg_bonded>"
 echo "	</topology>"
-
+echo " 	<maps>"
+echo "		<map>"
+echo "			<name>A</name>"
+echo "			<weights> 1. 1. 1.  1. 1. 1.</weights>"
+echo "		</map>"
+echo "	</maps>"
+echo "</cg_molecule>"
