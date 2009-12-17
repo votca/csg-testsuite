@@ -5,7 +5,10 @@ echo "<cg_molecule>
         <ident>Protein</ident>
         <topology>
              <cg_beads> "
-for i  in `seq 1 $((npol ))` ; do sed 's/NUMBER/'${i}'/g' singlebead.fo ; done
+for i  in `seq 1 $((npol ))`  
+do 
+	j=$(( $i - 1)) 
+	sed -e 's/NUMBER/'${i}'/g' -e 's/POSN/'$j'/' singlebead.fo ; done
 echo "             </cg_beads> "
 echo "             <cg_bonded> "
 echo "			<bond>"
