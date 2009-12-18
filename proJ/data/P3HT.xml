@@ -24,7 +24,7 @@
 				<beads>2:THI:C2 2:THI:C5 2:THI:S1 2:THI:C3 2:THI:C4 2:THI:H3</beads>
 			<qm>
 					<crgunitname>TH1</crgunitname>
-					<position>1</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -36,7 +36,7 @@
 				<beads>3:THI:C2 3:THI:C5 3:THI:S1 3:THI:C3 3:THI:C4 3:THI:H3</beads>
 			<qm>
 					<crgunitname>TH2</crgunitname>
-					<position>2</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -48,7 +48,7 @@
 				<beads>4:THI:C2 4:THI:C5 4:THI:S1 4:THI:C3 4:THI:C4 4:THI:H3</beads>
 			<qm>
 					<crgunitname>TH3</crgunitname>
-					<position>3</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -60,7 +60,7 @@
 				<beads>5:THI:C2 5:THI:C5 5:THI:S1 5:THI:C3 5:THI:C4 5:THI:H3</beads>
 			<qm>
 					<crgunitname>TH4</crgunitname>
-					<position>4</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -72,7 +72,7 @@
 				<beads>6:THI:C2 6:THI:C5 6:THI:S1 6:THI:C3 6:THI:C4 6:THI:H3</beads>
 			<qm>
 					<crgunitname>TH5</crgunitname>
-					<position>5</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -84,7 +84,7 @@
 				<beads>7:THI:C2 7:THI:C5 7:THI:S1 7:THI:C3 7:THI:C4 7:THI:H3</beads>
 			<qm>
 					<crgunitname>TH6</crgunitname>
-					<position>6</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -96,7 +96,7 @@
 				<beads>8:THI:C2 8:THI:C5 8:THI:S1 8:THI:C3 8:THI:C4 8:THI:H3</beads>
 			<qm>
 					<crgunitname>TH7</crgunitname>
-					<position>7</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -108,7 +108,7 @@
 				<beads>9:THI:C2 9:THI:C5 9:THI:S1 9:THI:C3 9:THI:C4 9:THI:H3</beads>
 			<qm>
 					<crgunitname>TH8</crgunitname>
-					<position>8</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -120,7 +120,7 @@
 				<beads>10:THI:C2 10:THI:C5 10:THI:S1 10:THI:C3 10:THI:C4 10:THI:H3</beads>
 			<qm>
 					<crgunitname>TH9</crgunitname>
-					<position>9</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -132,7 +132,7 @@
 				<beads>11:THI:C2 11:THI:C5 11:THI:S1 11:THI:C3 11:THI:C4 11:THI:H3</beads>
 			<qm>
 					<crgunitname>TH10</crgunitname>
-					<position>10</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -144,7 +144,7 @@
 				<beads>12:THI:C2 12:THI:C5 12:THI:S1 12:THI:C3 12:THI:C4 12:THI:H3</beads>
 			<qm>
 					<crgunitname>TH11</crgunitname>
-					<position>11</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -156,7 +156,7 @@
 				<beads>13:THI:C2 13:THI:C5 13:THI:S1 13:THI:C3 13:THI:C4 13:THI:H3</beads>
 			<qm>
 					<crgunitname>TH12</crgunitname>
-					<position>12</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -168,7 +168,7 @@
 				<beads>14:THI:C2 14:THI:C5 14:THI:S1 14:THI:C3 14:THI:C4 14:THI:H3</beads>
 			<qm>
 					<crgunitname>TH13</crgunitname>
-					<position>13</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
 
@@ -180,7 +180,7 @@
 				<beads>15:THI:C2 15:THI:C5 15:THI:S1 15:THI:C3 15:THI:C4 15:THI:H3</beads>
 			<qm>
 					<crgunitname>TH14</crgunitname>
-					<position>14</position>
+					<position>0</position>
 				</qm>
 			</cg_bead>
              </cg_beads> 
