@@ -20,4 +20,5 @@ config/missing
 
 config/config.guess
 config/config.sub
-
+proj/data/frame1/
+proj/data/frame1/*
