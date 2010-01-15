@@ -1,0 +1,4 @@
+<calc_rates>
+	<thermal_energy>0.025</thermal_energy>
+	<e_field>0.0 0.0 10000000.0</e_field>
+</calc_rates>

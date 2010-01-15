@@ -1,0 +1,73 @@
+<cg_molecule>
+        <name>NMC</name>
+        <ident>Protein</ident>
+        <topology>
+		<cg_beads> 
+			<cg_bead>
+				<name>NMC</name>
+				<type>NMC</type>
+				<symmetry>3</symmetry>
+				<mapping>NMC</mapping>
+				<beads>
+					1:NMC:O1 1:NMC:O2
+					1:NMC:C12 1:NMC:C2
+					1:NMC:C3 1:NMC:C4
+					1:NMC:C5 1:NMC:C6
+					1:NMC:N7 1:NMC:N8
+					1:NMC:C9 1:NMC:C10
+					1:NMC:C11 1:NMC:C1
+					1:NMC:C13 1:NMC:C14
+					1:NMC:C15 1:NMC:C16
+					1:NMC:C17 1:NMC:C18
+					1:NMC:C19 1:NMC:C20
+					1:NMC:C21 1:NMC:C22
+					1:NMC:C23 1:NMC:C24
+					1:NMC:H1 1:NMC:H2
+					1:NMC:H3 1:NMC:H4
+					1:NMC:H5 1:NMC:H6
+					1:NMC:H7 1:NMC:H8
+					1:NMC:H9 1:NMC:H10
+					1:NMC:H11 1:NMC:H12
+					1:NMC:H13 1:NMC:H14
+					1:NMC:H15 1:NMC:H16
+					1:NMC:H17 1:NMC:H18
+					1:NMC:H19 1:NMC:H20
+				</beads>
+				<qm>
+					<crgunitname>NMC</crgunitname>
+					<position>0</position>
+				</qm>
+			</cg_bead>
+		</cg_beads>
+	</topology>
+ 	<maps>
+		<map>
+			<name>NMC</name>
+			<weights>
+				16 16
+				12 12
+				12 12
+				12 12
+				14 14
+				12 12
+				12 12
+				12 12
+				12 12
+				12 12
+				12 12
+				12 12
+				12 12
+				1 1
+				1 1
+				1 1
+				1 1
+				1 1
+				1 1
+				1 1
+				1 1
+				1 1
+				1 1
+			</weights>
+		</map>
+	</maps>
+</cg_molecule>
