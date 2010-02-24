@@ -72,9 +72,9 @@ int main(int argc, char **argv) {
 	CrgUnit * B = jcalc.CreateCrgUnit(1, name2);
 	A->SetPos(0, com1);
 	B->SetPos(0, com2);
-	A->SetNorm(0, or1[0]);
+	A->SetNorm(0, or1[2]);
 	A->SetPlane(0, or1[1]);
-	B->SetNorm(0, or2[0]);
+	B->SetNorm(0, or2[2]);
 	B->SetPlane(0, or2[1]);
 
 //	cout << "Compute J" <<endl;
