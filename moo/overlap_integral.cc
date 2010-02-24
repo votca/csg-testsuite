@@ -64,17 +64,21 @@ int main(int argc, char **argv) {
 		or2[1][0] >> or2[1][1] >> or2[1][2] >>
 		or2[2][0] >> or2[2][1] >> or2[2][2] ;
 
-	com1 = com1/RA;
-	com2 = com2/RA;
 //	cout << "mol1: " << name1 << com1 << or1<<endl;
 //	cout << "mol2: " << name2 << com2 << or2<<endl;
 
 
-	CrgUnit A = jcalc.DefineCrgUnit(com1, or1, name1);
-	CrgUnit B = jcalc.DefineCrgUnit(com2, or2, name2);
+	CrgUnit * A = jcalc.CreateCrgUnit(0, name1);
+	CrgUnit * B = jcalc.CreateCrgUnit(1, name2);
+	A->SetPos(0, com1);
+	B->SetPos(0, com2);
+	A->SetNorm(0, or1[0]);
+	A->SetPlane(0, or1[1]);
+	B->SetNorm(0, or2[0]);
+	B->SetPlane(0, or2[1]);
 
 //	cout << "Compute J" <<endl;
-	vector <double> Js = jcalc.GetJ(A,B);
+	vector <double> Js = jcalc.CalcJ(*A,*B);
 //	cout << "Finished computing J" <<endl;
 	vector <double>::iterator itJ= Js.begin();
 	for (; itJ!=Js.end(); ++itJ) cout << '\t'<< *itJ <<endl;
