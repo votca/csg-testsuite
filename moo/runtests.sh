@@ -10,7 +10,7 @@ date > $summary
 cd $data
 out="out"
 test="translate.test"
-../overlap_integral  > $out
+moo_overlap  > $out
 echo "difference in test and output:" ../$summary
 diff $out $test
 
