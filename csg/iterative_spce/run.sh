@@ -7,7 +7,7 @@ test_start "running ibm"
 dir=$PWD
 cd ibm || test_fail
 rm -Rf done step_*
-bash -e "csg_inverse settings.xml" || test_fail
+bash -c "csg_inverse settings.xml" || test_fail
 echo $tmp
 cd $dir
 test_end
@@ -21,7 +21,7 @@ test_start "running imc"
 dir=$PWD
 cd imc || test_fail
 rm -Rf done step_*
-bash -e "csg_inverse settings.xml" || test_fail
+bash -c "csg_inverse settings.xml" || test_fail
 cd $dir
 test_end
 
