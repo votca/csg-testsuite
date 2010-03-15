@@ -1,0 +1,6 @@
+ <topology base="topol.tpr">
+   <molecules>
+     <rename name="SOL1" range="1:1000"/>
+     <rename name="SOL2" range="1001:2180"/>
+   </molecules>
+ </topology>
