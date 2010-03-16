@@ -1,6 +1,12 @@
 #!/bin/bash
 
-tests=$(find . -maxdepth 2 -name run.sh -exec dirname {} \; )
+dirs="."
+
+if [ ! "$1" = "" ]; then
+  dirs="$1"
+fi
+
+tests=$(find $dirs -maxdepth 2 -name run.sh -exec dirname {} \; )
 
 if [ -f NOTIFY ]; then
   cp NOTIFY failed_notify
