@@ -1,0 +1,32 @@
+<crgunit_type>
+	<ChargeUnitType>
+		<posname>list_charges/pcbm_dft.xyz</posname>
+		<orbname>list_charges/pcbm.fort.7</orbname>
+		<transorb>-1</transorb>
+		<name>B</name>
+		<basisset>TVZP_gauss.xml</basisset>
+		<monomer_atom_map> 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 </monomer_atom_map>
+		<monomer_atom_weights> 1. 1. 1. 1. 1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  </monomer_atom_weights>
+		<reorg>0.5</reorg>
+		<energy>0.</energy>
+		<molname>PCBM</molname>
+	</ChargeUnitType>
+
+	<ChargeUnitType>
+                <posname>list_charges/thi.xyz</posname>
+                <orbname>list_charges/thi.fort.7</orbname>
+		<basisset>TVZP_gauss.xml</basisset>
+                <transorb>-1</transorb>
+                <name>A</name>
+                <monomer_atom_map>
+		   0 3 4 1 2 5 6 7 8
+                </monomer_atom_map>
+                <monomer_atom_weights>
+			12 12 12 12 12 1 1 1 1
+                </monomer_atom_weights>
+		<reorg>0.5</reorg> 
+		<energy>0.</energy>
+		<molname>P3HT</molname>
+        </ChargeUnitType>
+
+</crgunit_type>
