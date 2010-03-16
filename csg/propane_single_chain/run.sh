@@ -21,12 +21,18 @@ test_start "force matching"
   diff angle.force ref/angle.force || test_fail
 test_end
 
-test_start "force integraton"
+test_start "force integration"
   csg_call table integrate angle.force angle.pot.fm || test_fail
   csg_call table integrate bond.force bond.pot.fm || test_fail
   diff bond.pot.fm ref/bond.pot.fm || test_fail
   diff angle.pot.fm ref/angle.pot.fm || test_fail
 test_end 
+
+test_start "force matching - constrained"
+  csg_fmatch --top topol.tpr --trj traj.trr --cg propane.xml --options settings_constrained.xml || test_fail
+  diff bond.force ref/bond.force.constr || test_fail
+  diff angle.force ref/angle.force.constr || test_fail
+test_end
 
 tests_finished
 
