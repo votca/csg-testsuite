@@ -13,7 +13,7 @@ test_start "running ctp_integrals"
 test_end
 
 test_start "checking nblist and integrals"
-diff nbl.res nbl_int_only.ref || test_fail
+diff nbl_0.res nbl_int_only.ref || test_fail
 test_end
 
 tests_finished
