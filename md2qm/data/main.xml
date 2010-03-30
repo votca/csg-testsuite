@@ -1,4 +1,13 @@
-<calc_rates>
-	<thermal_energy>0.025</thermal_energy>
-	<e_field>0.0 0.0 10000000.0</e_field>
-</calc_rates>
+<options>
+	<calc_rates>
+		<thermal_energy>0.025</thermal_energy>
+		<e_field>0.0 0.0 10000000.0</e_field>
+	</calc_rates>
+	<kmc_cont>
+		<total_time>1E-8</total_time>
+                <dt>1E-15</dt>
+		<alpha>1.2</alpha>
+                <ncrg>1</ncrg>
+                <nruns>10</nruns>
+	</kmc_cont>
+</options>
