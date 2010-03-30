@@ -13,7 +13,7 @@ test_start "running ctp_ratecalculator"
 test_end
 
 test_start "checking rates"
-diff nbl.res nbl_rates.ref || test_fail
+diff nbl_0.res nbl_rates.ref || test_fail
 test_end
 
 tests_finished
