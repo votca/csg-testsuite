@@ -9,7 +9,6 @@
 		<monomer_atom_weights> 1. 1. 1. 1. 1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  </monomer_atom_weights>
 		<reorg>0.5</reorg>
 		<energy>0.</energy>
-		<molname>PCBM</molname>
 	</ChargeUnitType>
 
 	<ChargeUnitType>
@@ -26,7 +25,6 @@
                 </monomer_atom_weights>
 		<reorg>0.5</reorg> 
 		<energy>0.</energy>
-		<molname>P3HT</molname>
         </ChargeUnitType>
 
 </crgunit_type>
