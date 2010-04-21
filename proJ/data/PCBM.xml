@@ -1,0 +1,28 @@
+<cg_molecule>
+        <name>PCBM</name>
+        <ident>PCBM</ident>
+        <topology>
+             <cg_beads>
+	     	<cg_bead>
+			<name>B</name>
+			<type>B</type>
+			<symmetry>3</symmetry>
+			<mapping>B</mapping>
+			<beads>1:UNK:CC1 1:UNK:CC2 1:UNK:CC3 1:UNK:CC4 1:UNK:CC5 1:UNK:CC6 1:UNK:CC7 1:UNK:CC8 1:UNK:CC9 1:UNK:CC10 1:UNK:CC11 1:UNK:CC12 1:UNK:CC13 1:UNK:CC14 1:UNK:CC15 1:UNK:CC16 1:UNK:CC17 1:UNK:CC18 1:UNK:CC19 1:UNK:CC20 1:UNK:CC21 1:UNK:CC22 1:UNK:CC23 1:UNK:CC24 1:UNK:CC25 1:UNK:CC26 1:UNK:CC27 1:UNK:CC28 1:UNK:CC29 1:UNK:CC30 1:UNK:CC31 1:UNK:CC32 1:UNK:CC33 1:UNK:CC34 1:UNK:CC35 1:UNK:CC36 1:UNK:CC37 1:UNK:CC38 1:UNK:CC39 1:UNK:CC40 1:UNK:CC41 1:UNK:CC42 1:UNK:CC43 1:UNK:CC44 1:UNK:CC45 1:UNK:CC46 1:UNK:CC47 1:UNK:CC48 1:UNK:CC49 1:UNK:CC50 1:UNK:CC51 1:UNK:CC52 1:UNK:CC53 1:UNK:CC54 1:UNK:CC55 1:UNK:CC56 1:UNK:CC57 1:UNK:CC58 1:UNK:CC59 1:UNK:CC60 1:UNK:CC61 1:UNK:CB1 1:UNK:CB2 1:UNK:CB3 1:UNK:CB4 1:UNK:CB5 1:UNK:CB6 1:UNK:CM1 1:UNK:CM2 1:UNK:CM3 1:UNK:CM4 1:UNK:HB1 1:UNK:HB2 1:UNK:HB3 1:UNK:HB4 1:UNK:HB5 1:UNK:HM1 1:UNK:HM2 1:UNK:HM3 1:UNK:HM4 1:UNK:HM5 1:UNK:HM6 1:UNK:O1 1:UNK:O2 1:UNK:CE1 1:UNK:HM7 1:UNK:HM8 1:UNK:HM9</beads>
+			<qm>
+				<crgunitname>PCBM</crgunitname>
+				<position>0</position>
+			</qm>
+		</cg_bead>
+	    </cg_beads>
+	</topology>
+	<maps>
+	    <map>
+		<name>B</name>
+		<weights>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </weights>
+	     </map>
+	 </maps>
+</cg_molecule>
+
+
+	
