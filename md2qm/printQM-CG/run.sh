@@ -9,7 +9,7 @@ cp -R ${datadir}/QM_files . || test_fail
 test_end
 
 test_start "running print"
-../../../md2qm/src/tools/printqmattop --crg ${datadir}/list_charges.xml --opt ${datadir}/main.xml || test_fail
+printqmattop --crg ${datadir}/list_charges.xml --opt ${datadir}/main.xml || test_fail
 test_end
 
 test_start "checking pdb files"
