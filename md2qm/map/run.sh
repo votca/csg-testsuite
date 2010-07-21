@@ -9,7 +9,7 @@ cp -R ${datadir}/QM_files . || test_fail
 test_end
 
 test_start "running ctp_map"
-../../../md2qm/src/tools/ctp_map --top ${datadir}/topol.tpr --cg ${datadir}/norma_ch3.xml --trj ${datadir}/traj.xtc -l ${datadir}/list_charges.xml  --nframes 3 || test_fail
+ctp_map --top ${datadir}/topol.tpr --cg ${datadir}/norma_ch3.xml --trj ${datadir}/traj.xtc -l ${datadir}/list_charges.xml  --nframes 3 || test_fail
 test_end
 
 test_start "checking nblist"

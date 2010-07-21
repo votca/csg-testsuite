@@ -9,7 +9,7 @@ cp -R ${datadir}/QM_files . || test_fail
 test_end
 
 test_start "running ctp_ratecalculator"
-../../../md2qm/src/tools/ctp_ratecalc --crg ${datadir}/list_charges.xml --opt ${datadir}/main.xml || test_fail
+ctp_ratecalc --crg ${datadir}/list_charges.xml --opt ${datadir}/main.xml || test_fail
 test_end
 
 test_start "checking rates"

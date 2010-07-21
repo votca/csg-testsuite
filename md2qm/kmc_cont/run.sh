@@ -9,7 +9,7 @@ cp -R ${datadir}/QM_files . || test_fail
 test_end
 
 test_start "running easyj"
-../../../md2qm/src/tools/ctp_cont_kmc --crg ${datadir}/list_charges.xml --opt ${datadir}/main.xml --nframes 1 || test_fail
+ctp_cont_kmc --crg ${datadir}/list_charges.xml --opt ${datadir}/main.xml --nframes 1 || test_fail
 test_end
 
 test_start "checking kmc_cont results"
