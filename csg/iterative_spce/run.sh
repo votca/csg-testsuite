@@ -13,7 +13,7 @@ cd $dir
 test_end
 
 test_start "ibm output"
-diff ibm/CG-CG.pot.new ibm/ref/CG-CG.pot.new || test_fail
+diff ibm/step_002/CG-CG.pot.new ibm/ref/CG-CG.pot.new || test_fail
 test_end
 
 test_start "running imc"
@@ -26,7 +26,7 @@ cd $dir
 test_end
 
 test_start "imc output"
-diff imc/CG-CG.pot.new imc/ref/CG-CG.pot.new || test_fail
+diff imc/step_001/CG-CG.pot.new imc/ref/CG-CG.pot.new || test_fail
 test_end
 
 tests_finished
