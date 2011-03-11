@@ -1,5 +1,5 @@
 #include <iostream>
-#include "version.h"
+#include <votca/tools/version.h>
 
 using namespace std;
 

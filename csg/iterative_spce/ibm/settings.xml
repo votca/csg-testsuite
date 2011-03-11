@@ -59,4 +59,4 @@
     <!-- write restart step to this file -->
     <restart_file>restart_points.log</restart_file>
   </inverse>
-</cg>
+</cgx>

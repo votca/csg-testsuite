@@ -1,6 +1,6 @@
 #include <iostream>
 #include <math.h>
-#include "cubicspline.h"
+#include <votca/tools/cubicspline.h>
 
 using namespace std;
 
