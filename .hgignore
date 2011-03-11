@@ -2,25 +2,7 @@ syntax:glob
 
 \#*
 *~
-stamp-h1
-.deps
-*.o
-*.a
-autom4te.cache/*
-configure
 Makefile
-Makefile.in
-aclocal.m4
-config.h
-config.h.in
-config.log
-config.status
-config/depcomp
-config/install-sh
-config/missing
-
-config/config.guess
-config/config.sub
 
 step_00?
 inverse.log
@@ -33,3 +15,10 @@ mdout.mdp
 tests.log
 topol.tpr
 
+tools/version_test
+
+CMakeFiles/*
+install_manifest.txt
+cmake_install.cmake
+cmake_uninstall.cmake
+CMakeCache.txt

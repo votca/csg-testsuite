@@ -1,4 +1,4 @@
-#include <vec.h>
+#include <votca/tools/vec.h>
 
 int main(int argc, char **argv)
 {

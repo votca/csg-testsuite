@@ -1,5 +1,5 @@
 #include <iostream>
-#include "property.h"
+#include <votca/tools/property.h>
 
 using namespace std;
 
