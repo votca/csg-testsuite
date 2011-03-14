@@ -10,8 +10,11 @@ endif (NOT VOTCA_TOOLS_FOUND)
 find_library(LIB_TOOLS votca_tools HINTS ${VOTCA_TOOLS_LIBRARY_DIRS})
 include_directories( ${VOTCA_TOOLS_INCLUDE_DIRS} )
 
+enable_testing()
+
 #foreach(NAME basic property_test spline_test version_test)
 foreach(NAME version_test)
   add_executable(${NAME} ${NAME}.cc)
   target_link_libraries(${NAME} ${LIB_TOOLS})
+  add_test(${NAME} ${NAME})
 endforeach(NAME)
