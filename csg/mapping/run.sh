@@ -13,8 +13,8 @@ diff tpr.gro tpr_ref.gro || test_fail
 test_end 
 
 test_start "map pdb file"
-csg_map --top topol_pdb.xml --trj conf.gro --cg water.xml --out "pdb.gro" || test_fail 
-test_fail
+csg_map --top topol_pdb.xml --trj conf.gro --cg water_pdb.xml --out "pdb.gro" || test_fail 
+diff pdb.gro pdb_ref.gro || test_fail 
 test_end 
 
 test_start "map xml topology, 2 molecule types"
