@@ -45,13 +45,15 @@
       <!-- topology + trajectory. Be careful, do not change yet! -->
       <topol>topol.tpr</topol>
       <traj>traj.xtc</traj>
+      <!-- skip mdrun in test to avoid gromacs dependence -->
+      <mdrun>#</mdrun>
     </gromacs>
     <!-- these files are copied for each new run -->
-    <filelist>../grompp.mdp ../topol.top ../table.xvg ../index.ndx</filelist>
+    <filelist>../grompp.mdp ../topol.top ../table.xvg ../index.ndx ../traj.xtc</filelist>
     <!-- do so many iterations -->
     <iterations_max>2</iterations_max>
-    <!-- ibm: inverse biltzmann imc: inverse monte carlo -->
-    <method>ibm</method>
+    <!-- ibi: inverse biltzmann imc: inverse monte carlo -->
+    <method>ibi</method>
     <!-- directory for user scripts -->
     <scriptdir>$PWD</scriptdir>
     <!-- write log to this file -->
@@ -59,4 +61,4 @@
     <!-- write restart step to this file -->
     <restart_file>restart_points.log</restart_file>
   </inverse>
-</cgx>
+</cg>
