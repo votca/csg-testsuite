@@ -2,12 +2,14 @@
 
 source ../functions.sh
 
+#provide need files manually and put them in the repo
 test_start "atomistic run"
+  #run_atomistic.sh does not exec mdrun
   ./run_atomistic.sh || test_fail
 test_end
 
 test_start "boltzmann inversion"
-  cat boltzmann_cmds | csg_boltzmann --top topol.tpr --trj traj.trr --cg propane.xml || test_fail
+  cat boltzmann_cmds | csg_boltzmann --top topol.tpr --trj ref/traj.trr --cg propane.xml || test_fail
   echo ""
   diff bond.dist.ib ref/bond.dist.ib || test_fail
   diff angle.dist.ib ref/angle.dist.ib || test_fail
@@ -16,7 +18,9 @@ test_start "boltzmann inversion"
 test_end
 
 test_start "force matching"
-  csg_fmatch --top topol.tpr --trj traj.trr --cg propane.xml --options settings.xml || test_fail
+  csg_fmatch --top topol.tpr --trj ref/traj.trr --cg propane.xml --options settings.xml || test_fail
+  #remove arbitrary '#'
+  sed -i '/^#/d' bond.force angle.force
   diff bond.force ref/bond.force || test_fail
   diff angle.force ref/angle.force || test_fail
 test_end
@@ -29,7 +33,9 @@ test_start "force integration"
 test_end 
 
 test_start "force matching - constrained"
-  csg_fmatch --top topol.tpr --trj traj.trr --cg propane.xml --options settings_constrained.xml || test_fail
+  csg_fmatch --top topol.tpr --trj ref/traj.trr --cg propane.xml --options settings_constrained.xml || test_fail
+  #remove arbitrary '#'
+  sed -i '/^#/d' bond.force angle.force
   diff bond.force ref/bond.force.constr || test_fail
   diff angle.force ref/angle.force.constr || test_fail
 test_end
