@@ -47,11 +47,11 @@
       <traj>traj.xtc</traj>
       <!-- skip mdrun in test to avoid gromacs dependence -->
       <mdrun>
-        <bin>cp ../../confout.gro . ; echo skip mdrun</bin>
+        <command>mdrun -c trash.gro -x trash.xtc</command>
       </mdrun>
     </gromacs>
     <!-- these files are copied for each new run -->
-    <filelist>../grompp.mdp ../topol.top ../table.xvg ../index.ndx ../traj.xtc </filelist>
+    <filelist>../grompp.mdp ../topol.top ../table.xvg ../index.ndx ../traj.xtc ../confout.gro</filelist>
     <!-- do so many iterations -->
     <iterations_max>2</iterations_max>
     <!-- ibi: inverse biltzmann imc: inverse monte carlo -->
