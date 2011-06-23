@@ -10,5 +10,8 @@
 		<monomer_atom_weights>
 			1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 
 		</monomer_atom_weights>
+                <reorg>0.0</reorg>
+                <energy>0.0</energy> 
+                <basisset>INDO</basisset>
 	</ChargeUnitType>
 </crgunit_type>
