@@ -71,8 +71,8 @@
     <restart_file>restart_points.log</restart_file>
     <!-- imc specific stuff -->
     <imc>
-      <!-- solver to solve linear equation system, can be octave or matlab -->
-      <solver>octave</solver>
+      <!-- solver to solve linear equation system, can be octave, matlab or numpy -->
+      <solver>numpy</solver>
     </imc>
     <cgmap>../../water_cg.xml</cgmap>
   </inverse>
