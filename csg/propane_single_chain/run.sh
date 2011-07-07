@@ -35,7 +35,7 @@ test_end
 test_start "force matching - constrained"
   csg_fmatch --top topol.tpr --trj ref/traj.trr --cg propane.xml --options settings_constrained.xml || test_fail
   #remove arbitrary '#'
-  sed -i '/^#/d' bond.force angle.force
+  sed -i '/^#/d' bond.force angle.force ref/bond.force.constr ref/angle.force.constr
   diff bond.force ref/bond.force.constr || test_fail
   diff angle.force ref/angle.force.constr || test_fail
 test_end

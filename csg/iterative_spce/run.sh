@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 source ../functions.sh
 
@@ -31,7 +31,8 @@ test_end
 test_start "imc output"
 #remove arbitrary '#'
 sed -i '/^#/d' imc/step_001/CG-CG.pot.new imc/ref/CG-CG.pot.new
-diff imc/step_001/CG-CG.pot.new imc/ref/CG-CG.pot.new || test_fail
+#diff imc/step_001/CG-CG.pot.new imc/ref/CG-CG.pot.new || test_fail
+csg_call table compare imc/step_001/CG-CG.pot.new imc/ref/CG-CG.pot.new || test_fail
 test_end
 
 tests_finished
