@@ -16,7 +16,7 @@ test_end
 test_start "ibm output"
 grep -v "#" ibm/step_002/CG-CG.pot.new > pot_new
 grep -v "#" ibm/ref/CG-CG.pot.new > pot_ref
-diff pot_new pot_ref || test_fail
+csg_call table compare pot_new pot_ref || test_fail
 test_end
 
 test_start "running imc"
